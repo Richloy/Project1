@@ -1,0 +1,195 @@
+body {
+	margin: 0;
+}
+
+
+/* ==== Main Heading ==== */
+
+
+#heading{
+	position:fixed;
+	width: 100%;
+	height:auto;
+}
+
+#logobgrnd{
+	width: 100%;
+	height: 150px;
+	background: #201c3e;
+	margin: 0;
+} 
+
+#logobox{
+	width: 1200px;
+	height: 150px;
+	margin: 0 auto;
+}
+
+#logo {
+	position: absolute;
+	height: 66px;
+	width: auto;
+	float: left;
+	margin-top: 55px;
+	margin-bottom: 65px;
+}
+
+#logo img{
+	width: 75%;
+    height: auto;
+}
+
+#admin{
+	height: 66px;
+	width: auto;
+	float: right;
+	margin-top: 55px;
+	margin-bottom: 65px;
+	font-size: 3em;
+	font-weight: bold;
+	color: #1b9d95;
+}
+
+
+/* ====== Menu ====== */
+
+
+#menu {
+	width: 100%;
+	height: 30px;
+	background: url(images/menu_bgnd.png);
+	background-size: 100%;
+}
+
+#menubox{
+	width: 1000px;
+	height: 30px;
+	margin: 0 auto;
+}
+
+#menubox ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menubox li {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#menubox a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px 0 10px;
+    margin-right: 10px;
+    line-height: 30px;
+    border-right: 1px solid #fff;
+}
+
+#menubox a.current {
+    height: 30px;
+    color: #000;
+}
+
+#menubox a.current:hover {
+    cursor: default;
+}
+
+
+/* ===== Main Content ===== */
+
+
+#mainbox{
+	position: relative;
+	top: 180px;
+	width: 1200px;
+	height: 150px;
+	margin: 0 auto;
+	z-index: -1;
+}
+
+
+#event_desc{
+	width: 360px;
+	height:150px;
+	padding: 10px;
+	margin-bottom: 15px;
+	overflow: auto;
+}
+
+#calendar{
+	float: left;
+	border-right: 1px solid orange;
+	width: 240px;
+}
+
+#seatingplan{
+	float: left;
+	border-right: 1px solid orange;
+	width: 325px;
+}
+
+#mainpic{
+	width: 340px;
+	height: 300px;
+	max-width: 340px;
+	max-height: 300px;
+	float: left;
+	border-right: 1px solid orange;
+}
+
+
+/* ===== Admin Content ===== */
+
+
+#adminbox{
+	position: relative;
+	top: 180px;
+	width: 1200px;
+	height: 150px;
+	margin: 0 auto;
+	z-index: -1;
+}
+
+#eventpic{
+	position: absolute;
+	top: 30px;
+	right: 20px;
+}
+
+.t_grey{
+	background: #bcc;
+}
+
+.alter td{
+	padding: 10px;
+}
+
+/* ===== Seat Selection ===== */
+
+#seatselect{
+	font-family: Verdana;
+	border: 0px;
+	padding: 2px;"
+}
+
+#seatselect td{
+	width: 15px;
+	text-align: center;
+	background: #00CC00;
+	font-size: 12px;
+}
+
+#seatselect th{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.cbox{
+	opacity:1;
+}
+
+
